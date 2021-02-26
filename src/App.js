@@ -2,11 +2,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 import SimpleBottomNavigation from "./components/MainNav";
-import Movies from "./components/Pages/Movies/Movies";
-import Series from "./components/Pages/Series/Series";
-import Trending from "./components/Pages/Trending/Trending";
-import Favourite from "./components/Pages/Favourite/Favourite";
-import Search from "./components/Pages/Search/Search";
+import Movies from "./Pages/Movies/Movies";
+import Series from "./Pages/Series/Series";
+import Trending from "./Pages/Trending/Trending";
+import Favourite from "./Pages/Favourite/Favourite";
+import Search from "./Pages/Search/Search";
 import { Container } from "@material-ui/core";
 function App() {
   return (  
